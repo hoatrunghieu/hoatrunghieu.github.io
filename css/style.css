@@ -1,0 +1,137 @@
+#title{
+	padding: 15px;
+  border-color: red;
+  border-width: 3px;
+  border-style: dashed;
+	background-color: #F4D03F;
+  width: 210px;
+}
+
+
+
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#logo {
+  text-align: center;
+  top: 0px;
+  right: 30%;
+  background-repeat: no-repeat;
+} 
+
+#ava{
+  background-repeat: no-repeat; 
+}
+
+#lang {
+  position: absolute;
+  top: 35px;
+  right: 5%;
+}
+.tab{
+  list-style: none;
+  text-align: center;
+}
+
+.tab li{
+  display: inline-block;
+}
+
+.tab li a{
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  padding: 5px 20px;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.tab li a:hover{
+  border: 1px solid black;
+}
+
+
+#jobd {
+  font-size: 20px;
+
+}
+
+#inv {
+  font-size: 20px;
+  position: absolute;
+  top: 85px;
+  right: 70%;
+}
+
+#perinfo {
+  padding: 11px;
+  background-color: #F4D03F;
+  top: 120px;
+  right: 20px;
+}
+
+#abt{
+  background-color: #A93226;
+}
+
+#prd{
+  background-color: white;
+}
+
+#pp{
+  right: 30%;
+}
+.pm{
+  height: 200px;
+
+}
+
+.pm: hover{
+  border: 1px solid black;
+}
+
+.pic li{
+  display: inline-block;
+}
+
+
+
+.price li{
+  display: inline-block;
+}
+
+.price li a{
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  padding: 5px 83px;
+  color: green;
+  font-weight: bold;
+}
+
+#news{
+  background-color: #A93226;
+}
+
+input[type=text] {
+  width: 150px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+  width: 100%;
+}
